@@ -1,0 +1,68 @@
+body {
+   padding-top: 60px;
+}
+.todo {
+    display: table;
+    width: 100%;
+}
+
+.todo-header {
+    display: table-header-group;
+}
+
+.h-cell {
+    display: table-cell;
+}
+
+.task {
+    display: table-row;
+    width: 100%;
+}
+
+.task-header {
+    background-color: #dddddd;
+    margin-left: 22px;
+}
+
+.task-cell {
+    display: table-cell;
+}
+
+.task-notes {
+    display: none;
+}
+
+.task-done {
+    width: 25px;
+}
+
+.task-desc {
+    width: 250px;
+}
+
+.task-rank {
+    width: 65px;
+}
+
+.task-cat {
+    width: 250px;
+}
+
+.task-date {
+    width: 150px;
+}
+
+.task-toggle {
+    float: left;
+    cursor: pointer;
+    height: 22px;
+}
+
+.task-notes-footer {
+    float: right;
+    font-size: smaller;
+}
+
+.task-notes-footer span {
+    margin: 0 3px;
+}
